@@ -374,6 +374,11 @@
     background: none;
   }
 
+  footer .card .card-image {
+    display: flex;
+    justify-content: center;
+  }
+
   footer .card h1{
     font-size: 2.4rem;
     margin-top: 24px;
@@ -392,10 +397,12 @@
 
   footer .card p {
     font-size: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
     margin-top: 24px;
     font-family: ProximaRegular, "Helvetica", "Arial", sans-serif;
     text-align: center;
-    color: #fff;
+    color: #34296B;
   }
 
   .footer-content {
